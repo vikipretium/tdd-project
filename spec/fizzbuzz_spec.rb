@@ -14,7 +14,7 @@ describe Solver do
       expect(solver.fizzbuzz(30)).to eql 'fizzbuzz'
     end
     it 'If N is non-divisible by 3 and 5, return number as string' do
-      expect(solver.fizzbuzz(2)).to eql 2
+      expect(solver.fizzbuzz(2)).to eql '2'
     end
   end
 end
