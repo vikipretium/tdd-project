@@ -12,9 +12,10 @@ class Solver
 
   def fizzbuzz(number)
     solver = ''
-    
+
     solver += 'fizz' if (number % 3).zero?
     solver += 'buzz' if (number % 5).zero?
+    return number if solver.strip.empty?
 
     solver
   end
