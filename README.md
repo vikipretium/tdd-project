@@ -2,11 +2,12 @@
 
 # Test Driven Development project (TDD)
 
-> The **TDD** is a tool to keep records of both books and patrons of a school library. The app offers a convenient way to:
+> The **TDD** is the project to practise Rspec unit tests and mocks to understand test driven development.
+> In this project we have tested and solved 3 problems using TDD.
 >
-> - Add records of new students or teachers.
-> - Add records of new books.
-> - Save records of who borrowed a given book and when.
+> - Factorial.
+> - Reverse.
+> - Fizzbuzz.
 
 ## Built With
 
@@ -17,6 +18,7 @@
   ```bash
   - Git(version control)
   - Ruby
+  - Rspec
   ```
 
 ## Getting Started
@@ -35,9 +37,9 @@ To get a local copy up and running follow these simple example steps.
 #### Clone this repository
 
 ```bash
-git clone git@github.com:vikipretium/oop-school-library.git
+git clone git@github.com:vikipretium/tdd-project.git
 
-cd oop-school-library
+cd tdd-project
 ```
 
 ## Author
