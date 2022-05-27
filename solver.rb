@@ -11,5 +11,8 @@ class Solver
   end
 
   def fizzbuzz(number)
+    solver = ''
+    solver += 'fizz' if (number % 3).zero?
+    solver
   end
 end
